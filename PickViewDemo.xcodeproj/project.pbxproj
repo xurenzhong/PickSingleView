@@ -11,12 +11,13 @@
 		4D0D01D61EB9660D005C7BE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01D51EB9660D005C7BE4 /* AppDelegate.m */; };
 		4D0D01D91EB9660D005C7BE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01D81EB9660D005C7BE4 /* ViewController.m */; };
 		4D0D01DC1EB9660D005C7BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0D01DA1EB9660D005C7BE4 /* Main.storyboard */; };
-		4D0D01DE1EB9660D005C7BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0D01DD1EB9660D005C7BE4 /* Assets.xcassets */; };
 		4D0D01E11EB9660D005C7BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0D01DF1EB9660D005C7BE4 /* LaunchScreen.storyboard */; };
 		4D0D01EC1EB9660D005C7BE4 /* PickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01EB1EB9660D005C7BE4 /* PickViewDemoTests.m */; };
 		4D0D01F71EB9660D005C7BE4 /* PickViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01F61EB9660D005C7BE4 /* PickViewDemoUITests.m */; };
 		4D0D02061EB96644005C7BE4 /* PickerSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D02051EB96644005C7BE4 /* PickerSingleView.m */; };
 		4DE0471A1F1CB03A008C8AB1 /* PickerDoubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */; };
+		4DE0471D1F1CB8F6008C8AB1 /* WechatIMG7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0471B1F1CB8F6008C8AB1 /* WechatIMG7.jpeg */; };
+		4DE0471E1F1CB8F6008C8AB1 /* WechatIMG8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0471C1F1CB8F6008C8AB1 /* WechatIMG8.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		4D0D01D71EB9660D005C7BE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D0D01D81EB9660D005C7BE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D0D01DB1EB9660D005C7BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D0D01DD1EB9660D005C7BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0D01E01EB9660D005C7BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0D01E21EB9660D005C7BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0D01E71EB9660D005C7BE4 /* PickViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +57,8 @@
 		4D0D02051EB96644005C7BE4 /* PickerSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerSingleView.m; sourceTree = "<group>"; };
 		4DE047181F1CB03A008C8AB1 /* PickerDoubleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerDoubleView.h; sourceTree = "<group>"; };
 		4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerDoubleView.m; sourceTree = "<group>"; };
+		4DE0471B1F1CB8F6008C8AB1 /* WechatIMG7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG7.jpeg; sourceTree = "<group>"; };
+		4DE0471C1F1CB8F6008C8AB1 /* WechatIMG8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG8.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +117,9 @@
 				4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */,
 				4D0D02041EB96644005C7BE4 /* PickerSingleView.h */,
 				4D0D02051EB96644005C7BE4 /* PickerSingleView.m */,
+				4DE0471B1F1CB8F6008C8AB1 /* WechatIMG7.jpeg */,
+				4DE0471C1F1CB8F6008C8AB1 /* WechatIMG8.jpeg */,
 				4D0D01DA1EB9660D005C7BE4 /* Main.storyboard */,
-				4D0D01DD1EB9660D005C7BE4 /* Assets.xcassets */,
 				4D0D01DF1EB9660D005C7BE4 /* LaunchScreen.storyboard */,
 				4D0D01E21EB9660D005C7BE4 /* Info.plist */,
 				4D0D01D11EB9660D005C7BE4 /* Supporting Files */,
@@ -259,8 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE0471E1F1CB8F6008C8AB1 /* WechatIMG8.jpeg in Resources */,
 				4D0D01E11EB9660D005C7BE4 /* LaunchScreen.storyboard in Resources */,
-				4D0D01DE1EB9660D005C7BE4 /* Assets.xcassets in Resources */,
+				4DE0471D1F1CB8F6008C8AB1 /* WechatIMG7.jpeg in Resources */,
 				4D0D01DC1EB9660D005C7BE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
