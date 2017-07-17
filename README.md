@@ -4,3 +4,5 @@
 #import "PickerSingleView.h"
 #import "PickerDoubleView.h"
 直接使用类方法初始化即可，选取数值使用回调处理
+![](https://github.com/xurenzhong/PickSingleView/edit/master/PickSingleView/PickViewDemo/WechatIMG7.jpeg 
+)  
