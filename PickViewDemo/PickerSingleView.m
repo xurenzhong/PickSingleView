@@ -38,7 +38,9 @@
     if (self) {
         self.dataArray = titleArray;
         _headTitle = title;
-        _backString = self.dataArray[0];
+        if (self.dataArray > 0) {
+            _backString = self.dataArray[0];
+        }
         [self makeUI];
     }
     return self;
@@ -138,7 +140,9 @@
 }
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    _backString = self.dataArray[row];
+    if (self.dataArray.count > row) {
+        _backString = self.dataArray[row];
+    }
 }
 
 -(CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component {
