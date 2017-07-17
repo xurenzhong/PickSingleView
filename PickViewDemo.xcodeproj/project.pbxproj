@@ -16,6 +16,7 @@
 		4D0D01EC1EB9660D005C7BE4 /* PickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01EB1EB9660D005C7BE4 /* PickViewDemoTests.m */; };
 		4D0D01F71EB9660D005C7BE4 /* PickViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D01F61EB9660D005C7BE4 /* PickViewDemoUITests.m */; };
 		4D0D02061EB96644005C7BE4 /* PickerSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0D02051EB96644005C7BE4 /* PickerSingleView.m */; };
+		4DE0471A1F1CB03A008C8AB1 /* PickerDoubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4D0D01F81EB9660D005C7BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0D02041EB96644005C7BE4 /* PickerSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerSingleView.h; sourceTree = "<group>"; };
 		4D0D02051EB96644005C7BE4 /* PickerSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerSingleView.m; sourceTree = "<group>"; };
+		4DE047181F1CB03A008C8AB1 /* PickerDoubleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerDoubleView.h; sourceTree = "<group>"; };
+		4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerDoubleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				4D0D01D51EB9660D005C7BE4 /* AppDelegate.m */,
 				4D0D01D71EB9660D005C7BE4 /* ViewController.h */,
 				4D0D01D81EB9660D005C7BE4 /* ViewController.m */,
+				4DE047181F1CB03A008C8AB1 /* PickerDoubleView.h */,
+				4DE047191F1CB03A008C8AB1 /* PickerDoubleView.m */,
 				4D0D02041EB96644005C7BE4 /* PickerSingleView.h */,
 				4D0D02051EB96644005C7BE4 /* PickerSingleView.m */,
 				4D0D01DA1EB9660D005C7BE4 /* Main.storyboard */,
@@ -284,6 +289,7 @@
 				4D0D02061EB96644005C7BE4 /* PickerSingleView.m in Sources */,
 				4D0D01D91EB9660D005C7BE4 /* ViewController.m in Sources */,
 				4D0D01D61EB9660D005C7BE4 /* AppDelegate.m in Sources */,
+				4DE0471A1F1CB03A008C8AB1 /* PickerDoubleView.m in Sources */,
 				4D0D01D31EB9660D005C7BE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +528,7 @@
 				4D0D01FD1EB9660D005C7BE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0D01FE1EB9660D005C7BE4 /* Build configuration list for PBXNativeTarget "PickViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +537,7 @@
 				4D0D02001EB9660D005C7BE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0D02011EB9660D005C7BE4 /* Build configuration list for PBXNativeTarget "PickViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +546,7 @@
 				4D0D02031EB9660D005C7BE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
